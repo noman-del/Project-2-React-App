@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.task-list {
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #fff;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.task.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
